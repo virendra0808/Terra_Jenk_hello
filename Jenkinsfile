@@ -21,7 +21,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/virendra0808/Terraform/blob/3a77d9ac39c5298938658839ce88f2a1c528ce73/subnet/subnet.tf"
+                            git "https://github.com/virendra0808/hello.git"
                         }
                     }
                 }
