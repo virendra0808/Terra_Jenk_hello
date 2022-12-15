@@ -1,7 +1,3 @@
-git clone 
-cd 
- 
-cat < Jenkinsfile
 pipeline {
          agent {
                 label 'test'
@@ -24,8 +20,3 @@ pipeline {
                  }
               }
 }
-EOF
- 
-git add Jenkinsfile
-git commit -m "pipeline def added"
-git push
