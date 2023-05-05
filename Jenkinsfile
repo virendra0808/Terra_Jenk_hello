@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Git checkout') {
            steps{
-                git branch: 'main', credentialsId: 'jenkins', url: 'https://github.com/virendra0808/hello'
+                git branch: 'main', credentialsId: 'jenkins', url: 'https://github.com/virendra0808/Terra_hello'
             }
         }
         stage('Plan') {
